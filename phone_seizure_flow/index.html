@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Phone Seizure Guide</title>
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#020F27">
+  <link rel="stylesheet" href="style.css">
+  <script>if ('serviceWorker' in navigator) { navigator.serviceWorker.register('service-worker.js'); }</script>
+</head>
+<body>
+  <div id="app">
+    <header><h1>Phone Seizure Guide</h1></header>
+    <main id="question-box">
+      <p id="question">Loading…</p>
+      <div id="options">
+        <button id="btn-yes" onclick="nextStep('yes')">Yes</button>
+        <button id="btn-no" onclick="nextStep('no')">No</button>
+      </div>
+      <div id="nav-buttons">
+        <button id="btn-back" class="small-btn" onclick="goBack()">Back</button>
+        <button id="btn-restart" class="small-btn" onclick="restart()">Restart</button>
+      </div>
+    </main>
+    <footer><small>© 2025 Mako Forensics</small></footer>
+  </div>
+  <script src="flowchart.js"></script>
+</body>
+</html>

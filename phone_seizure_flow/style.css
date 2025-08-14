@@ -1,0 +1,14 @@
+:root { --brand: #020F27; --accent: #F26419; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+        background: #f6f8fb; color: #0b1220; display: grid; place-items: center; min-height: 100vh; }
+#app { width: min(820px, 94vw); background: #fff; border-radius: 16px;
+        box-shadow: 0 10px 30px rgba(0,0,0,.07); padding: 24px 24px 16px; border: 2px solid rgba(2,15,39,.08); position: relative; }
+header h1 { margin: 0 0 12px 0; color: var(--brand); font-weight: 800; letter-spacing: .2px; }
+#question { font-size: 1.25rem; line-height: 1.4; margin: 10px 0 18px; }
+#options button { background: var(--brand); color: #fff; border: 0; padding: 12px 18px; margin-right: 10px; border-radius: 10px; font-size: 1rem; cursor: pointer; }
+#options button:hover { background: var(--accent); }
+#nav-buttons { margin-top: 10px; }
+.small-btn { padding: 6px 10px; font-size: .9rem; background: #e9edf5; color: #0b1220; border-radius: 8px; }
+.small-btn:hover { background: #dfe6f2; }
+footer { margin-top: 18px; color: #556; }

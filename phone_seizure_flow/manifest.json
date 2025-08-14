@@ -1,0 +1,9 @@
+{
+  "name": "Mako Forensics: Phone Seizure Guide",
+  "short_name": "Phone Seizure",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#020F27",
+  "icons": []
+}
